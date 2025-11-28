@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(11, 11, 11);
+}
+
+h1 {
+    color: limegreen;
+    font-size: clamp(20px, 3vw, 60px);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    cursor: pointer;
+}
